@@ -1,31 +1,3 @@
-<!DOCTYPE html>
- 
-<html>
- 
-<head>
- 
-</head>
- 
-<body>
-    <form id="form">
-        <label for="rope-lengths">Enter rope lengths:</label>
-        <input type="text" id="rope-lengths">
-        <button type="button" onclick="calculateMinCost()">Calculate</button>
-      </form>
-      <div id="result"></div>
- 
-<script type="text/javascript" src="./script.js"></script>
-  
- 
-</body>
- 
-</html>
- 
- 
- 
-// js part
- 
- 
 function compare(a, b) {
   if (a < b) {
       return -1;
